@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.mainBox{
+    height: 100vh;
+    width: 100vw;
+    background-color: teal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    color: antiquewhite;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.inputBox{
+    display: flex;
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    align-items: center;
+    border-radius: 2px;
+}
+
+.plus{
+    border: none;
+    background-color: white;
+    height: 70%;
+    width: 25%;
+    border-right: 2px solid rgba(65, 63, 63, 0.6);
+}
+.count{
+    width: 50%;
+    text-align: center;
+}
+.minus{
+    border: none;
+    background-color: white;
+    height: 70%;
+    width: 25%;
+    border-left: 2px solid rgba(65, 63, 63, 0.6);
+}
+button:hover{
+    cursor: pointer;
+}
+button:active{
+    background-color: rgb(122, 120, 120);
+}
